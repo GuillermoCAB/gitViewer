@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto para teste técnico da AIS/Livelo.
+
+Está aplicação foi desenvolvida utilizando React, create-react-app, Axios e suas respectivas dependencias.
+
+Dado o porte destá aplicação, decidi não utilizar extensões como jQuery e Redux.
+
+Segue abaixo documentação padrão do create-react-app.
 
 ## Available Scripts
 
