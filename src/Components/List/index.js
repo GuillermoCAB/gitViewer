@@ -8,7 +8,7 @@ export default class List extends Component {
       return (
         <div className="list">
           <h1 className="listTitle">{this.props.listTitle}</h1>
-          <ul>
+          <ul className="listBody">
             {this.props.list.map(item => (
               <li key={item.id} className="listItem">
                 <a href={item.html_url}>{item.full_name}</a>

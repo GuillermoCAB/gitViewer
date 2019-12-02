@@ -36,11 +36,16 @@
   color: #ed047c;
 }
 
-.list .listItem {
+.list .listBody {
+  max-width: 80%;
+}
+
+.list .listBody .listItem {
   font-family: "Signika";
   font-size: 18px;
   line-height: 25.2px;
   text-align: left;
   margin: 7px 0;
+  word-wrap: break-word;
 }
 /*# sourceMappingURL=styles.css.map */

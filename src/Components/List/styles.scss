@@ -22,8 +22,13 @@
     }
   }
 
-  .listItem {
-    @include text(18px, left);
-    margin: 7px 0;
+  .listBody {
+    max-width: 80%;
+
+    .listItem {
+      @include text(18px, left);
+      margin: 7px 0;
+      word-wrap: break-word;
+    }
   }
 }
