@@ -1,0 +1,46 @@
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 88%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  margin: 30px 0;
+}
+
+.list .listTitle {
+  font-family: "Signika";
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.list a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0;
+}
+
+.list a:hover {
+  color: #ed047c;
+}
+
+.list .listItem {
+  font-family: "Signika";
+  font-size: 18px;
+  line-height: 25.2px;
+  text-align: left;
+  margin: 7px 0;
+}
+/*# sourceMappingURL=styles.css.map */

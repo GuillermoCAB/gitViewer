@@ -1,0 +1,26 @@
+$primaryColor: #ed047c;
+$lprimaryColor: lighten($primaryColor, 60%);
+$secondaryColor: #150958;
+$lsecondaryColor: lighten($secondaryColor, 60%);
+$white: #fff;
+
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin h1 {
+  font-family: "Signika";
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+}
+
+@mixin text($size, $aling) {
+  font-family: "Signika";
+  font-size: $size;
+  line-height: $size * 1.4;
+  text-align: $aling;
+}

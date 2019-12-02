@@ -1,0 +1,99 @@
+.loaderIcon {
+  max-height: 30px;
+}
+
+.primary {
+  font-family: "Signika";
+  font-size: 24px;
+  line-height: 33.6px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  width: 80%;
+  max-width: 500px;
+  min-height: 40px;
+  border-radius: 15px;
+  background-color: #ed047c;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  -webkit-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s;
+  margin: 20px 10px;
+}
+
+.primary:hover {
+  border: 2px solid #ed047c;
+  background-color: #150958;
+  color: #ed047c;
+  cursor: pointer;
+}
+
+.primary:active {
+  border: 2px solid #ed047c;
+  background-color: #150958;
+  color: #ed047c;
+  -webkit-transform: scale(0.97, 0.97);
+          transform: scale(0.97, 0.97);
+}
+
+.secondary {
+  font-family: "Signika";
+  font-size: 24px;
+  line-height: 33.6px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  width: 80%;
+  max-width: 500px;
+  min-height: 40px;
+  border-radius: 15px;
+  background-color: #150958;
+  border: none;
+  color: #ed047c;
+  border: 2px solid #ed047c;
+  font-size: 24px;
+  -webkit-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s;
+  margin: 20px 10px;
+}
+
+.secondary:hover {
+  border: 2px solid #ed047c;
+  background-color: #ed047c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.secondary:active {
+  border: 2px solid #ed047c;
+  background-color: #ed047c;
+  color: #fff;
+  -webkit-transform: scale(0.97, 0.97);
+          transform: scale(0.97, 0.97);
+}
+/*# sourceMappingURL=styles.css.map */

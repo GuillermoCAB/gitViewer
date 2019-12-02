@@ -1,0 +1,19 @@
+@import "../../Styles/base";
+
+body {
+  background-color: $secondaryColor;
+}
+
+.wrapper {
+  @include flex(column, top, center);
+  color: #fff;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+  height: auto;
+}
+
+h1 {
+  @include h1;
+  margin-bottom: 50px;
+}

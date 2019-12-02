@@ -1,0 +1,66 @@
+@import "../../Styles/base";
+
+.loaderIcon {
+  max-height: 30px;
+}
+
+.primary {
+  @include text(24px, center);
+  @include flex(row, center, center);
+  outline: none;
+  width: 80%;
+  max-width: 500px;
+  min-height: 40px;
+  border-radius: 15px;
+  background-color: $primaryColor;
+  border: none;
+  color: $white;
+  font-size: 24px;
+  transition: all ease-in 0.3s;
+  margin: 20px 10px;
+
+  &:hover {
+    border: 2px solid $primaryColor;
+    background-color: $secondaryColor;
+    color: $primaryColor;
+    cursor: pointer;
+  }
+
+  &:active {
+    border: 2px solid $primaryColor;
+    background-color: $secondaryColor;
+    color: $primaryColor;
+    transform: scale(0.97, 0.97);
+  }
+}
+
+.secondary {
+  @include text(24px, center);
+  @include flex(row, center, center);
+  outline: none;
+  width: 80%;
+  max-width: 500px;
+  min-height: 40px;
+  border-radius: 15px;
+  background-color: $secondaryColor;
+  border: none;
+  color: $primaryColor;
+  border: 2px solid $primaryColor;
+  font-size: 24px;
+  transition: all ease-in 0.3s;
+  margin: 20px 10px;
+
+  &:hover {
+    border: 2px solid $primaryColor;
+    background-color: $primaryColor;
+    color: $white;
+    cursor: pointer;
+  }
+
+  &:active {
+    border: 2px solid $primaryColor;
+    background-color: $primaryColor;
+    color: $white;
+    transform: scale(0.97, 0.97);
+  }
+}

@@ -1,0 +1,27 @@
+@import "../../Styles/base";
+
+.loader {
+  margin-top: 20%;
+}
+
+.detail {
+  @include flex(column, center, center);
+  width: 100%;
+  padding: 7px 30px;
+
+  .detailImage {
+    width: 10%;
+    margin-bottom: 20px;
+  }
+
+  @media only screen and (max-width: 48em) {
+    .detailImage {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      @include text(18px, center);
+    }
+  }
+}

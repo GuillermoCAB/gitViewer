@@ -1,0 +1,17 @@
+@import "../../Styles/base";
+
+.searchWrapper {
+  @include flex(column, center, center);
+  width: 100%;
+  input {
+    @include text(22px, left);
+    width: 80%;
+    max-width: 500px;
+    min-height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: #cecece;
+    padding: 7px 30px;
+    outline: none;
+  }
+}
